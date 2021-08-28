@@ -91,7 +91,7 @@ layout = [
                 [btw.Text('', size=(36, 2), key='Notification')], [btw.Button('Download', font=('Verdana', 10)), btw.Button('Exit', font=('Verdana', 10))]
             ]
 
-window = btw.Window('mira_twitch_downloader', layout, icon="C:\\Users\\spark\\Desktop\\256x256.ico",)
+window = btw.Window('vod_downloader', layout, icon= cwd + "\\256x256.ico",)
 
 ####
 
